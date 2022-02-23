@@ -1,0 +1,73 @@
+language = "python3"
+run = "main.py"
+
+def euclides_mcd(n, m)
+    # El Máximo Común Divisor de 'n' y 'm'.
+    # Enteros naturales n ≥ 0 ; m ≥ 0 y n ≠ 0 y m ≠ 0
+    # Si n es inferior a m, se invierten
+    # Obtenemos el resto de la división
+    while True:
+        resto = n % m
+        if resto == 0:
+            return m
+        # Si n es inferior a m, se invierten
+        else:
+            n = m
+            m = resto
+print euclides_mcd(n,m)
+
+
+Entrada
+# Algoritmo euclídeo solo con sumas o restas
+
+def euclides_mcd(n, m)
+  control = True
+  k=0
+  while (control == True):
+    if (n == m):
+      control = False
+    k = abs(n-m)
+    if (n > b):
+      a = k
+    else:
+     b = k
+  return n
+
+
+
+Entrada
+# Edición de un número entero
+
+def numero_cambio_base
+		abs(n) < p
+
+		invariante
+			# k es el número de cifras ya contadas
+			p = 10 ^ k
+		variante de control
+			abs(n) – p ÷ 10
+	repetir
+		p ← p x 10
+
+		afirmación
+			p = 10 ^ k+1
+		
+		k ← k + 1
+
+		afirmación
+			p = 10 ^ k
+	fin repetir
+
+	Resultado ← k
+
+
+Algoritmo descomponer
+
+import tabulate
+def descomposicion():
+    caden = cadena.split(separador)
+    lista = []
+    for i in range(0, len(caden)):
+        lista.append(list(caden[i: i+1]))
+    tabla = lista
+    print(tabulate.tabulate(tabla, tablafmt = "", showindex = True))
